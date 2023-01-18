@@ -1,13 +1,19 @@
-import { Footer } from "./components/Footer"
-import { Hero } from "./components/Hero"
-import { Team } from "./components/Team"
+import {AboutUs} from './components/about-us'
+import {Footer} from './components/footer'
+import {Hero} from './components/hero'
+import { Services } from './components/services'
+import {Team} from './components/team'
 
 const HomePage = () => {
-	return <>
-		<Hero />
-		<Team />
-		<Footer />
-	</>
+	console.log('HomePage')
+	return (
+		<>
+			<Hero />
+			<Services />
+			<AboutUs />
+			<Team />
+		</>
+	)
 }
 
 export default HomePage
