@@ -1,135 +1,75 @@
+import {HiArrowRight} from 'react-icons/hi'
+/*
+Equipe altamente qualificada: A equipe de sua empresa é composta por engenheiros e técnicos altamente qualificados e experientes, garantindo a excelência na execução de cada projeto.
+
+Atendimento ao cliente: Sua empresa se dedica a prestar um atendimento excepcional aos clientes, garantindo uma comunicação clara e eficiente durante todo o processo de projeto.
+
+Flexibilidade: Sua empresa oferece flexibilidade para se adaptar às necessidades e prazos de cada projeto, garantindo a satisfação dos clientes.
+
+Seguimentos atendidos: Sua empresa atende a diversos seguimentos, como automação industrial, automotivo, sistemas de segurança, entre outros, mostrando a capacidade de adaptação e versatilidade.
+
+Garantia de qualidade: Sua empresa se compromete a garantir a qualidade e confiabilidade de seus projetos, através de processos rigorosos de teste e inspeção antes da entrega final.
+
+
+
+
+*/
 export const Services = () => (
 	<section className='text-gray-600 body-font'>
-		<div className='container px-5 py-24 mx-auto'>
-			<div className='text-center mb-20'>
-				<h1 className='sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4'>
-					Nossos serviços
+		<div className='container px-5 pt-24 mx-auto'>
+			<div className='text-start mb-10'>
+				<h1 className='text-2xl font-light uppercase tracking-widest text-gray-900 mb-4 border-b-2 border-orange-500 inline py-2'>
+				Como podemos ajudá-lo
 				</h1>
-				<p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto'>
-					Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-					taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-					pug.
-				</p>
 			</div>
-			<div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Sistemas eletronicos 
-						</span>
-					</div>
-				</div>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Peças mecanicas
-						</span>
-					</div>
-				</div>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Plano de produção
-						</span>
-					</div>
-				</div>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Prototipos
-						</span>
-					</div>
-				</div>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Firmware para microcontroladores
-						</span>
-					</div>
-				</div>
-				<div className='p-2 sm:w-1/2 w-full'>
-					<div className='bg-gray-100 rounded flex p-4 h-full items-center'>
-						<svg
-							fill='none'
-							stroke='currentColor'
-							stroke-linecap='round'
-							stroke-linejoin='round'
-							stroke-width='3'
-							className='text-yellow-500 w-6 h-6 flex-shrink-0 mr-4'
-							viewBox='0 0 24 24'
-						>
-							<path d='M22 11.08V12a10 10 0 11-5.93-9.14'></path>
-							<path d='M22 4L12 14.01l-3-3'></path>
-						</svg>
-						<span className='title-font font-medium'>
-							Sistemas de software
-						</span>
-					</div>
-				</div>
+			<div className='flex flex-row gap-8'>
+				<ServiceItem
+					title='Projetos personalizados'
+					description='Sua empresa se destaca por oferecer soluções personalizadas para cada projeto, levando em consideração as necessidades únicas de cada cliente.'
+				/>
+
+				<ServiceItem
+					title='Equipe altamente qualificada'
+					description='A equipe de sua empresa é composta por engenheiros e técnicos altamente qualificados e experientes, garantindo a excelência na execução de cada projeto.'
+				/>
 			</div>
-			<button className='flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg'>
-				Button
-			</button>
+			<div className='flex flex-row gap-8'>
+				<ServiceItem
+					title='Atendimento ao cliente'
+					description='Sua empresa se dedica a prestar um atendimento excepcional aos clientes, garantindo uma comunicação clara e eficiente durante todo o processo de projeto.'
+				/>
+
+				<ServiceItem
+					title='Flexibilidade'
+					description='Sua empresa oferece flexibilidade para se adaptar às necessidades e prazos de cada projeto, garantindo a satisfação dos clientes.'
+				/>
+			</div>
+			<div className='flex flex-row gap-8'>
+				<ServiceItem
+					title='Seguimentos atendidos'
+					description='Sua empresa atende a diversos seguimentos, como automação industrial, automotivo, sistemas de segurança, entre outros, mostrando a capacidade de adaptação e versatilidade.'
+				/>
+
+				<ServiceItem
+					title='Garantia de qualidade'
+					description='Sua empresa se compromete a garantir a qualidade e confiabilidade de seus projetos, através de processos rigorosos de teste e inspeção antes da entrega final.'
+				/>
+			</div>
 		</div>
 	</section>
+)
+
+const ServiceItem: React.FC<{title: string; description: string}> = ({
+	title,
+	description,
+}) => (
+	<div className='flex flex-col items-start py-10 flex-1'>
+		<h1 className='text-xl text-gray-900 mb-4 flex flex-row items-center font-thin uppercase'>
+			{title}
+		</h1>
+		{description}
+		<a className='text-orange-500 text-md inline-flex items-center mt-4 cursor-pointer hover:font-bold ease-in duration-300'>
+			Saiba mais <HiArrowRight className='ml-2' />
+		</a>
+	</div>
 )
