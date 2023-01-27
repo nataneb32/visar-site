@@ -13,7 +13,6 @@ const HomePage = () => {
 			<AboutUs />
 			<Services />
 			<Faq />
-			<Team />
 		</>
 	)
 }
